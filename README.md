@@ -15,5 +15,8 @@ use opentutorials;
 #### APP 실행방법
 ````
 npm install       // npm setting
+
+// lib 폴더에 password.js 파일 생성
+
 nodemon main.js   // start app
 ````
