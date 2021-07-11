@@ -1,20 +1,19 @@
-# Nodejs-with-Mysql
-You can setting...
+# Nodejs-Mysql
 
-MySQL setting
+### 실행방법
+
+#### MySQL setting
 ```
+// db 생성
 mysql -uroot -p
 create database opentutorials;
 use opentutorials;
+
+// example.sql 파일 참고하여 table 생성
 ```
-> Then run "example.sql"
 
-<br />
-
-npm setting
-> npm install
-
-<br />
-
-start app...
-> nodemon main.js
+#### APP 실행방법
+````
+npm install       // npm setting
+nodemon main.js   // start app
+````
